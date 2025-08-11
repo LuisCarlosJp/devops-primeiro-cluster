@@ -12,6 +12,6 @@ export class AppController {
 
   @Get('/example-k8s')
   getExample(): string {
-    return this.appService.getHello();
+    return this.appService.getExample();
   }
 }
