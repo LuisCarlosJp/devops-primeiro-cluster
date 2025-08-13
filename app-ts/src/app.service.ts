@@ -4,6 +4,7 @@ import { Injectable } from '@nestjs/common';
 export class AppService {
   getHello(): string {
     console.log(process.env.APP);
+    console.log(process.env.API_KEY);
     return 'Hello World!';
   }
   
