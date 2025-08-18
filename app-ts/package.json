@@ -24,6 +24,8 @@
     "@nestjs/config": "^4.0.2",
     "@nestjs/core": "^11.0.1",
     "@nestjs/platform-express": "^11.0.1",
+    "@yarnpkg/plugin-interactive-tools": "^4.0.3",
+    "@yarnpkg/plugin-workspace-tools": "^4.1.5",
     "reflect-metadata": "^0.2.2",
     "rxjs": "^7.8.1"
   },
