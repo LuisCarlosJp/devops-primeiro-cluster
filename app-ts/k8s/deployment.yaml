@@ -21,7 +21,7 @@ spec:
     spec:
       containers:
         - name: app-ts
-          image: amakusashirou/app-ts:v8
+          image: amakusashirou/app-ts:v7
           imagePullPolicy: IfNotPresent
           envFrom:
             - configMapRef:
